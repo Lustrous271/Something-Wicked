@@ -1,10 +1,38 @@
+.wholething {
+    margin: 1rem auto;
+    max-height: 750px;
+    width: 750px;
+    border: 5px solid gold;
+    background-color: lightyellow;
+    border-radius: 5px;
+    box-shadow: 1px 1px darkgoldenrod;
+}
+
 .flex {
     display:flex;
     flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .flex2 {
     display:flex;
     flex-direction: row;
     justify-content:space-evenly;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.results {
+    font-family: fantasy;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.score {
+    border: 4px solid gold;
+    padding: 1rem;
+    background: white;
 }

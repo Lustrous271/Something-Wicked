@@ -45,7 +45,7 @@ function CalcScissor() {
     if(random == 0) {
      result_tag.innerText = "You Lose!"
      ichoose.innerText = "I choose Rock."
-     mysocre += 1
+     myscore += 1
      myscoretag.innerText = "My score is " + myscore
     }
     else if(random == 1) {

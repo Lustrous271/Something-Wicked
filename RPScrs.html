@@ -8,31 +8,33 @@
     <title>Document</title>
 </head>
 <body>
-<div class="flex">
-    <div class="card" style="width: 18rem;">
-  <img src="https://thumb.ac-illust.com/dc/dc7e97a9faa05a8f3cac87efe348e34e_t.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Your choice!</h5>
-    <p class="card-text">You will play...</p>
-    <button onclick="CalcRock()" class="rockbtn">Rock</button>
-    <button onclick="CalcPaper()" class="paperbtn">Paper</button>
-    <button onclick="CalcScissor()" class="scisbtn">Scissor</button>
+<div class="wholething">  
+ <div class="flex">
+     <div class="card" style="width: 18rem;">
+   <img src="https://thumb.ac-illust.com/dc/dc7e97a9faa05a8f3cac87efe348e34e_t.jpeg" class="card-img-top" alt="...">
+   <div class="card-body">
+     <h5 class="card-title">Your choice!</h5>
+     <p class="card-text">You will play...</p>
+     <button onclick="CalcRock()" class="rockbtn">Rock</button>
+     <button onclick="CalcPaper()" class="paperbtn">Paper</button>
+     <button onclick="CalcScissor()" class="scisbtn">Scissor</button>
+   </div>
+  </div>
+   <div class="card" style="width: 18rem;">
+   <img id="ichooseimg" src="https://thumb.ac-illust.com/dc/dc7e97a9faa05a8f3cac87efe348e34e_t.jpeg" class="card-img-top" alt="...">
+   <div class="card-body">
+     <h5 class="card-title">I choose...</h5>
+     <p class="card-text" id="ichoose"></p>
+   </div>
   </div>
  </div>
-  <div class="card" style="width: 18rem;">
-  <img id="ichooseimg" src="https://thumb.ac-illust.com/dc/dc7e97a9faa05a8f3cac87efe348e34e_t.jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">I choose...</h5>
-    <p class="card-text" id="ichoose"></p>
+  <h2 id="results" class="results">And... </h2>
+  <div class="flex2">
+   <h3 class="score" id="yourscoreid">Your score is... </h3>
+   <h3 class="score" id="myscoreid">And my score is...</h3>
   </div>
- </div>
-</div>
- <h2 id="results">And... </h2>
- <div class="flex2">
-  <h3 id="yourscoreid">Your score is... </h3>
-  <h3 id="myscoreid">And my score is...</h3>
- </div>
-    <script src="RPScrs.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</div>  
+     <script src="RPScrs.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
